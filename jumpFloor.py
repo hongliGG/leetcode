@@ -5,13 +5,13 @@
 '''
 def jumpFloor(number):
     if number < 1:
-        return 0
+        return 1
     elif number == 1:
         return 1
     else:
         return 2*jumpFloor(number-1)
     
 
-number = 5
+number = 3
 num = jumpFloor(number)
 print(num)

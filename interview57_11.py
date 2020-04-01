@@ -1,6 +1,9 @@
-# 题目描述 leetcode 4
+# 题目描述  面试题57 - 11
 '''
-给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
+输入一个正整数 target ，输出所有和为 target 的连续正整数序列（至少含有两个数）。
+
+序列内的数字由小到大排列，不同序列按照首个数字从小到大排列。
+
 '''
 class Solution:
     def findContinuousSequence(self, target):
